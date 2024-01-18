@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border-top: 10px solid #1098ad;
+    
+}
 h1,h2,h3,h4{
     color: #1098ad;
 }
@@ -26,16 +34,35 @@ li{
     font-size: 20px;
     font-family: sans-serif;
 }
+.web-heading{
+    margin-bottom:20px;
+}
 p{
     font-size: 22px;
     font-family: sans-serif;
     line-height: 1.5;
+    margin-bottom: 15px;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+ol, ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.post-img{
+    /* width: 800px; */
+    height: auto;
+    width: 100%;
 }
 .bullat{
     list-style: none;
 }
 .main-header{
     background-color: #f7f7f7;
+    padding: 20px 40px;
+    height: 80px;
 }
 .related-author{
     font-size: 18px;

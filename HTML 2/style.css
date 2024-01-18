@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    border-top: 10px solid #1098ad;
+    position: relative;
     
 }
 h1,h2,h3,h4{
@@ -19,7 +19,22 @@ h1{
 h2{
     font-size: 40px;
     font-family: sans-serif;
+    position: relative;
+    background-color: #1310ad;
 } 
+h2::after{
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444;
+    font-size:16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 h3{
     font-size: 30px;
     font-family: sans-serif;
@@ -44,6 +59,8 @@ p{
     margin-bottom: 15px;
 }
 .container{
+    border-top: 8px solid #1098ad;
+
     width: 800px;
     margin: 0 auto;
 }
@@ -91,4 +108,10 @@ a:hover{
 a:active{
     background-color: blue;
     font-style: italic;
+}
+.like-btn{
+    padding: 10px;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
 }

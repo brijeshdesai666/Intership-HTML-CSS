@@ -1,15 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     line-height: 1.4;
+    margin-top: 50px;
 }
 .title{
     text-transform: uppercase;
     font-size: 25px;
     text-align: center;
     background-color: rgb(248, 245, 245);
+
 }
 .container{
+    
     width: 820px;
-    margin: 0 auto;
+    height: 500px;
+    margin: auto auto;
     border: 5px solid black;
 }
 .btn{
@@ -19,27 +27,95 @@ body{
     font-weight: 900;
     font-size: 17px;
     cursor: pointer;
+    margin-top: 7px;
     
-    width: 820px;
     height: 50px;
+    width: 100%;
     border-top: 5px solid black;
 }
 .btn:hover{
     background-color: white;
     color: black;
 }
+.color-line{
+    display: flex;
+}
+.color-black{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color-blue{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color-red{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color-yellow{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color-green{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color-brown{
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sell{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+
+    letter-spacing: 5px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: 280px;
+}
 .product{
     text-transform: uppercase;
     font-family:serif;
     font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ui{
+    margin-top: 10px;
 }
 ul li{
     list-style:square ;
+    margin-left: 20px;
 }
 strong{
     font-size: 20px;
     font-weight: bold;
     font-family:  serif;
+    margin-bottom: 00px;
+}
+p{
+    margin-bottom: 20px;
 }
 .morelink:link, .morelink:visited{
     color: black;
@@ -49,6 +125,7 @@ strong{
 }
 .free{
     text-transform: uppercase;
+    margin-bottom: 10px;
     font-size: 10px;
     font-weight: bold;
     color: rgb(129, 127, 127);
